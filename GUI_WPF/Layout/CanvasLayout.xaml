@@ -13,6 +13,7 @@
             <Label Content="Color" Canvas.Left="17" Canvas.Top="85"/>
             <TextBox Canvas.Left="113" TextWrapping="Wrap" Canvas.Top="58" Width="251"/>
             <TextBox Canvas.Left="113" TextWrapping="Wrap" Canvas.Top="89" Width="251"/>
+            <Button Content="Display" Canvas.Left="113" Canvas.Top="126" Width="87"/>
 
         </Canvas>
     </Grid>
