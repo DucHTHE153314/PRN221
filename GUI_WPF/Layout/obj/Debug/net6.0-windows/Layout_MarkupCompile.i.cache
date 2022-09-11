@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\PRN221\GUI_WPF\Layout\App.xaml
-3-518998971
+41245676531
 
-7-919545168
+81756221679
 1941142463650
-CanvasLayout.xaml;StackPanel.xaml;WrapPanel.xaml;
+CanvasLayout.xaml;Grid.xaml;StackPanel.xaml;WrapPanel.xaml;
 
 True
 
