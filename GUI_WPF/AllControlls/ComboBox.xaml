@@ -1,0 +1,52 @@
+﻿<Window x:Class="AllControlls.ComboBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AllControlls"
+        mc:Ignorable="d"
+        Title="ComboBox" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Center" Width="800">
+
+        <ComboBox Margin="5" Name="Color" Height="36" Background="#EAEAEA" SelectionChanged="Color_SelectionChanged">
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Red" Height="24" Width="24" ></Rectangle>
+                <Label FontSize="20">Red</Label>
+            </StackPanel >
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Green" Height="24" Width="24" ></Rectangle>
+                <Label FontSize="20">Green</Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Yellow" Height="24" Width="24" ></Rectangle>
+                <Label FontSize="20">Yellow</Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Blue" Height="24" Width="24" ></Rectangle>
+                <Label FontSize="20">Blue</Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Black" Height="24" Width="24" ></Rectangle>
+                <Label FontSize="20">Black</Label>
+            </StackPanel>
+        </ComboBox>
+        <Label FontSize="20" FontWeight="Bold">Color selection:</Label>
+        <Label Name="color_selected" FontSize="20"></Label>
+
+        <ComboBox Name="City" Margin="5,50,5,5" Height="36" Background="#EAEAEA">
+            <StackPanel Orientation="Horizontal">
+                <Label FontSize="20">TP. Ho Chi Minh</Label>
+            </StackPanel >
+            <StackPanel Orientation="Horizontal">
+                <Label FontSize="20">Hanoi</Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label FontSize="20">Nghean</Label>
+            </StackPanel>
+        </ComboBox>
+        <Label FontSize="20" FontWeight="Bold">City selection:</Label>
+        <Label Name="city_selected" FontSize="20"></Label>
+
+        <Button FontSize="20 " VerticalContentAlignment="Center" Width="100" Margin="0, 24" Content="Get City" Click="Button_Click"/>
+    </StackPanel>
+</Window>

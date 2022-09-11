@@ -1,5 +1,5 @@
 ﻿AllControlls
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\PRN221\GUI_WPF\AllControlls\App.xaml
 11325208402
 
-5-1296881046
+3-1476712695
 1941142463650
 ComboBox.xaml;
 
-True
+False
 
