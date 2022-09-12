@@ -85,7 +85,7 @@ namespace AllControlls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AllControlls;component/combobox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AllControlls;V1.0.0.0;component/combobox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ComboBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

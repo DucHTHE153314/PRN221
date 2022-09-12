@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d38fcd8f-274d-474c-97a2-fbf9105c31b7": {
+      "ProjectGuid": "d38fcd8f-274d-474c-97a2-fbf9105c31b7",
+      "DisplayName": "Layout",
+      "ColorIndex": 0
+    },
+    "96fb6882-8066-4af8-998f-d6d8d4475d4e": {
+      "ProjectGuid": "96fb6882-8066-4af8-998f-d6d8d4475d4e",
+      "DisplayName": "AllControlls",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

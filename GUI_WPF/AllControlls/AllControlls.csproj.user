@@ -10,9 +10,15 @@
     <Compile Update="ComboBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RadioButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="ComboBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RadioButton.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
